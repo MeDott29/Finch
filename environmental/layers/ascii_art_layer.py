@@ -22,3 +22,7 @@ class AsciiArtLayer(Layer):
         # Update the fitness value
         self.fitness = fitness
         return fitness
+
+    def get_fitness(self):
+        return self.fitness
+
